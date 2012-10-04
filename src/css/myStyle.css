@@ -1,0 +1,122 @@
+html {
+  margin: -20px;
+  margin-top: -40px;
+}
+body {
+  font-family: 'Ubuntu';
+  background: url("../images/whitenoise.png") repeat scroll left top #FFFFFF;
+  background: url("../images/pattern2.png") repeat scroll left top #FFFFFF;
+}
+
+
+header {
+  height: 100px;
+
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Arvo';
+}
+header h1 {
+  position: relative;
+  text-align: center;
+  top: 30%;
+
+  font-size: 54px;
+  font-family: 'Abril Fatface';
+  font-weight: lighter;
+  letter-spacing: -2px;
+}
+header #marc {
+  color: #00C8FF;
+  text-shadow: 0px 0px 3px #00C8FF;
+}
+header #adam {
+  margin-left: -4px;
+  text-shadow: 0px 0px 3px #00C8FF;
+}
+nav {
+  background-color: #333;
+  text-align: center;
+  margin-top: -14px;
+}
+nav ul {
+  margin-left: -28px;
+}
+nav ul li {
+  display: inline;
+  padding: 7px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  line-height: 30px;
+}
+nav ul li a:focus {
+  outline: 0;
+}
+nav ul li a:hover {
+  // color: #00C8FF;
+  // text-shadow: 0px 0px 2px #00C8FF;
+  color: #FFB300;
+  text-shadow: 0px 0px 3px #FFB300;
+}
+
+section {
+  display: none;
+  padding: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  margin-top: -16px;
+
+
+}
+section ul li {
+  color: #000;
+  // text-shadow: 0 1px 1px #FFFFFF;
+  text-shadow: 0 0 2px #FFFFFF;
+}
+#home {
+  box-shadow: 0 1px 5px #0081FF inset;
+}
+
+#experience {
+  box-shadow: 0 1px 5px #0081FF inset;
+}
+#contact {
+  box-shadow: 0 1px 5px #0081FF inset;
+}
+section h3 {
+  font-size: 19px;
+  // color: #0081ff;
+  color: #222222;
+  color: #fff;
+
+  // text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 1px #0051FF;
+}
+section p {
+  font-size: 16px;
+  color: #000;
+  // text-shadow: 0 1px 1px #FFFFFF;
+  text-shadow: 0 0 2px #FFFFFF;
+
+}
+section #intro {
+  width: 60%;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+}
+footer a { 
+  padding: 30px;
+  padding-top: 0px;
+  color: #fff;
+}
+#home {
+  display: block;
+}
