@@ -4,15 +4,15 @@ html {
 }
 body {
   font-family: 'Ubuntu';
-  background: url("../images/whitenoise.png") repeat scroll left top #FFFFFF;
-  background: url("../images/pattern2.png") repeat scroll left top #FFFFFF;
+  background: url("../images/vichy.png") repeat scroll left top #FFFFFF;
+  
 }
 
 
 header {
   height: 100px;
-
-  background-color: #000;
+  background: url("../images/dark_geometric.png") repeat scroll left top #FFFFFF;
+  background: 
   text-align: center;
   color: #fff;
   font-weight: bold;
@@ -42,26 +42,29 @@ nav {
   margin-top: -14px;
 }
 nav ul {
-  margin-left: -28px;
+  margin-left: -35px;
 }
 nav ul li {
   display: inline;
-  padding: 7px;
+  padding: 5px;
 }
 nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 19px;
   line-height: 30px;
+  text-shadow: 0 1px 0 #000000;
+  -moz-transition: color 0.5s linear;
 }
 nav ul li a:focus {
   outline: 0;
 }
 nav ul li a:hover {
-  // color: #00C8FF;
-  // text-shadow: 0px 0px 2px #00C8FF;
   color: #FFB300;
   text-shadow: 0px 0px 3px #FFB300;
+  -webkit-transition: color .25s linear;
+  -moz-transition: text-shadow 0.25s linear;
+  transition: color .25s linear;
+  
 }
 
 section {
