@@ -1,13 +1,12 @@
 html {
   margin: -20px;
   margin-top: -40px;
+  background: url("../images/dark_geometric.png") repeat scroll left top #FFFFFF;
 }
 body {
   font-family: 'Ubuntu';
   background: url("../images/vichy.png") repeat scroll left top #FFFFFF;
-  
 }
-
 
 header {
   height: 100px;
@@ -54,6 +53,8 @@ nav ul li a {
   line-height: 30px;
   text-shadow: 0 1px 0 #000000;
   -moz-transition: color 0.5s linear;
+  -webkit-transition: color 0.5s linear;
+  transition: color 0.5s linear;
 }
 nav ul li a:focus {
   outline: 0;
@@ -64,7 +65,6 @@ nav ul li a:hover {
   -webkit-transition: color .25s linear;
   -moz-transition: text-shadow 0.25s linear;
   transition: color .25s linear;
-  
 }
 
 section {
@@ -74,32 +74,17 @@ section {
   padding-bottom: 2%;
 
   margin-top: -16px;
-
-
+  box-shadow: 0 1px 5px #0081FF inset;
 }
 section ul li {
   color: #000;
-  // text-shadow: 0 1px 1px #FFFFFF;
   text-shadow: 0 0 2px #FFFFFF;
 }
-#home {
-  box-shadow: 0 1px 5px #0081FF inset;
-}
 
-#experience {
-  box-shadow: 0 1px 5px #0081FF inset;
-}
-#contact {
-  box-shadow: 0 1px 5px #0081FF inset;
-}
 section h3 {
   font-size: 19px;
-  // color: #0081ff;
-  color: #222222;
   color: #fff;
-
-  // text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-  text-shadow: 0 1px 1px #0051FF;
+  text-shadow: 0 0px 1px #0051FF;
 }
 section p {
   font-size: 16px;
@@ -122,4 +107,8 @@ footer a {
 }
 #home {
   display: block;
+}
+footer #hr {
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
